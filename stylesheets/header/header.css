@@ -1,0 +1,31 @@
+header{
+    background-color: #000000;
+    height: 70px;
+}
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 70px;
+}
+.header_logo img{
+    height: 30px;
+    margin-top: 20px;
+}
+.nav_bar {
+    display:grid;
+    grid-template-columns: repeat(5, 100px);
+    align-items: center;
+    justify-self: end;
+}
+.nav_links {
+    text-align: center;
+}
+.nav_links:hover{
+    border-bottom: 2px solid white;
+}
+.nav_links a{
+    text-decoration: none;
+    color: #b0b0b0;
+    font-weight: 600;
+
+}
