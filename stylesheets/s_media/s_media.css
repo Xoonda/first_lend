@@ -1,0 +1,21 @@
+.s_media {
+    background-color: #ffffff;
+    height: 110px;
+}
+.s_media__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding-top: 25px;
+}
+.s_media__text {
+    display:grid;
+    justify-self: start;
+    font-size: 11px;
+    width: 365px;
+}
+.s_media__text h2{
+    font-weight: bold;
+    font-size: 16px;
+}
