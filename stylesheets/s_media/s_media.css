@@ -1,6 +1,7 @@
 .s_media {
     background-color: #ffffff;
     height: 110px;
+    border-bottom: 1px solid #b7b7b7;
 }
 .s_media__content {
     display: grid;
@@ -8,6 +9,7 @@
     justify-items: center;
     align-items: center;
     padding-top: 25px;
+    padding-bottom: 25px;
 }
 .s_media__text {
     display:grid;
