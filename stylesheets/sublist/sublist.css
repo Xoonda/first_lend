@@ -1,0 +1,49 @@
+.sublist {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 150px;
+    margin-top: 125px;
+
+}
+.sublist__img {
+    
+    }
+.sublist__img_block {
+    width: 450px;
+    height: 300px;
+    background-color: #9a9a9a;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.308);
+}
+.sublist__img_text {
+    display:grid;
+}
+.sublist__img_block span {
+    justify-self: center;
+    display: block;
+    font-size: 25px;
+    color: white;
+    opacity: .4;
+}
+/*   Sublist right block   */
+
+.sublist__text {
+  
+}
+.sublist__text h3{
+    display: block;
+    padding-bottom: 50px;
+}
+.sublist__text h3:after {
+    display: block;
+    content: " ";
+    background-color: #ff8b38;
+    width: 64px;
+    height: 2px;
+    margin-top: 50px;
+}
+.sublist__text p {
+    opacity: 0.6;
+}
