@@ -47,3 +47,17 @@
 .sublist__text p {
     opacity: 0.6;
 }
+
+.title1 {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    margin-top: 50px;
+}
+.title_text {
+    justify-self: start;
+}
+.title2 {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    margin-top: 44px;
+}
