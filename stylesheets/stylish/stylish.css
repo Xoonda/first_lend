@@ -1,0 +1,43 @@
+.background_stylish {
+    background: #9a9a9a;
+}
+.stylish_page {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    color: white;
+}
+.stylish_page h2 {
+    text-transform: uppercase;
+    padding-top: 75px;
+    font-family: 'Raleway';
+}
+.stylish_page h2:after {
+    display: block;
+    content: " ";
+    width: 63px;
+    height: 2px;
+    margin: 30px auto;
+    background-color: white;
+}
+.stylish_page p{
+    opacity: 0.6;
+}
+.stylish_button {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    width: 130px;
+    height: 40px;
+    border: 2px solid white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.stylish_button p{
+    
+    display: block;
+    opacity: 1.0;
+    font-weight: 800;
+}
+.
